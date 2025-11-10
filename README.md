@@ -1,7 +1,8 @@
 # ZNC Control Panel for mIRC
 
+[![Stars](https://img.shields.io/github/stars/ZarTek-Creole/mirc-znc-interface)](https://github.com/ZarTek-Creole/mirc-znc-interface/stargazers) [![Issues](https://img.shields.io/github/issues/ZarTek-Creole/mirc-znc-interface)](https://github.com/ZarTek-Creole/mirc-znc-interface/issues) [![Forks](https://img.shields.io/github/forks/ZarTek-Creole/mirc-znc-interface)](https://github.com/ZarTek-Creole/mirc-znc-interface/network) [![License](https://img.shields.io/github/license/ZarTek-Creole/mirc-znc-interface)](LICENSE)
 
-Complete mIRC script for managing ZNC bouncer with intuitive menu interface and command logging.
+> Complete mIRC script for managing ZNC bouncer with intuitive menu interface, command logging, and IRC network management. Professional ZNC control panel designed for mIRC users.
 
 ## Features
 
@@ -10,6 +11,9 @@ Complete mIRC script for managing ZNC bouncer with intuitive menu interface and 
 - **Organized Menu System**: Categorized access to all ZNC functions
 - **Auto-Close**: Clean interface with automatic window management
 - **Bilingual**: English/French interface support
+- **Network Management**: Complete IRC network configuration and control
+- **User-Friendly**: Intuitive right-click menu integration
+- **Real-time Monitoring**: Live status updates and notifications
 
 ## Installation
 
@@ -22,38 +26,37 @@ Complete mIRC script for managing ZNC bouncer with intuitive menu interface and 
 - Right-click in any mIRC window → ZNC Control Panel
 - All commands are logged in @ZNC_Log window
 - Use `/toggle_log` to show/hide the log window
+- Access network settings through the menu interface
+- Configure ZNC users and channels directly from mIRC
 
 ## Requirements
 
 - mIRC 7.72 or newer
 - ZNC 1.8.x or newer
+- Active ZNC bouncer connection
 
-# Panneau de contrôle ZNC pour mIRC
+## Documentation
 
+For detailed documentation and advanced features, visit:
+- [ZNC Official Documentation](https://wiki.znc.in/)
+- [GitHub Repository](https://github.com/ZarTek-Creole/mirc-znc-interface)
 
-Script complet pour mIRC permettant de gérer le bouncer ZNC via une interface menu intuitive avec journalisation des commandes.
+## Contributing
 
-## Fonctionnalités
+Contributions are welcome! Please feel free to submit issues or pull requests.
 
-- **Support complet des commandes ZNC** : Toutes les commandes documentées implémentées
-- **Journalisation intelligente** : Historique des commandes/réponses avec horodatage
-- **Menu organisé** : Accès catégorisé à toutes les fonctions ZNC
-- **Fermeture automatique** : Gestion automatique des fenêtres
-- **Bilingue** : Support anglais/français
+## License
 
-## Installation
+This project is licensed under the terms specified in the LICENSE file.
 
-1. Copiez le script dans votre dossier scripts mIRC
-2. Tapez `/load -rs znc_control.mrc` dans mIRC
-3. Accédez via le menu clic-droit dans n'importe quelle fenêtre
+## Author
 
-## Utilisation
+**ZarTek-Creole**
+- GitHub: [@ZarTek-Creole](https://github.com/ZarTek-Creole)
+- Support: [ko-fi.com/zartek](https://ko-fi.com/zartek)
 
-- Clic-droit → Panneau de contrôle ZNC
-- Toutes les commandes sont journalisées dans la fenêtre @ZNC_Log
-- `/toggle_log` pour afficher/masquer le journal
+---
 
-## Prérequis
+## Keywords
 
-- mIRC 7.72 ou supérieur
-- ZNC 1.8.x ou supérieur
+`mirc` `znc` `irc` `bouncer` `script` `menu` `mirc-script` `irc-client` `irc-bot` `network-management` `control-panel` `logging` `automation` `chat` `windows` `msl` `znc-bouncer` `irc-network` `open-source`
